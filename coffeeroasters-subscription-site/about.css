@@ -1,0 +1,126 @@
+
+body{
+    font-family: 'Fraunces', serif;
+
+}
+
+.header-content{
+    font-family: 'Barlow', sans-serif;
+    background-repeat: no-repeat;
+    background-image: url('assets/about/desktop/image-hero-whitecup.jpg');
+}
+
+.header-text h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+/* commitment section  */
+
+.commitment{
+    margin: -100px 100px 0 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.commitment-img{
+    height: 520px;
+    border-radius : 10px ;
+}
+
+.commitment-text{
+    width: 520px;
+}
+
+.commitment-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.commitment-text p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 80%;
+}
+
+/* Quality section  */
+
+.quality {
+    margin-top: 256px;
+    background-image: url('assets/about/desktop/bg-quality.png');
+    background-repeat: no-repeat;
+
+    position: relative;
+    height: 474px;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    gap: 110px;
+}
+
+.quality-text{
+    width: 540px;
+    color: #fff;
+    margin-left: 80px;
+
+}
+
+.quality-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.quality-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 80%;
+}
+
+.quality-img{
+    position: absolute;
+    top: -100px;
+    right: 85px;
+
+    border-radius: 10px;
+}
+
+/* Section headquarters */
+
+.headquarters{
+    width: 1045px;
+    margin: 168px 120px 80px 120px;
+}
+
+.headquarters h1{
+    color: #83888F;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 72px;
+}
+
+.headquarters-loctions{
+    display: flex;
+    gap: 95px;  
+}
+
+.country{
+    width: 285px;
+}
+
+.country-name{
+    margin: 32px 0;
+}
+
+.country-information li{
+    list-style: none;
+    margin-bottom: 5px;
+}
